@@ -1,0 +1,61 @@
+<managedAppConfiguration>
+	<version>1</version>
+	<bundleId>mil.disa.custom.PurebredRegistration
+	</version>
+	<dict>
+		<string keyName="ManagedAppConfigurationVersion">
+			<defaultValue>
+				<userVariable value="2"/>
+			</defaultValue>
+		</string>
+		<string keyName="commonName">
+			<defaultValue>
+				<deviceVariable value="%deviceSerialNumber%"/>
+			</defaultValue>
+		</string>
+		<boolean keyName="noLoopbackOta">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="disableUkmBounce">
+			<defaultValue>
+				<value>false</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="enableManualBounce">
+			<defaultValue>
+				<value>false</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="requireUserPresence">
+			<defaultValue>
+				<value>false</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="usePersistentTokens">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="pivAuthenticationToken">
+			<defaultValue>
+				<value>true</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="digitalSignatureToken">
+			<defaultValue>
+				<value>false</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="noFilterForTokens">
+			<defaultValue>
+				<value>false</value>
+			</defaultValue>
+		</boolean>
+		<boolean keyName="decryptionToken">
+			<defaultValue>
+				<value>false</value>
+			</defaultValue>
+		</boolean>
+</managedAppConfiguration>
