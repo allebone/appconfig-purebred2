@@ -19,3 +19,5 @@ AppConfig PLIST for PurebredV2
 - disableUkmBounce 
 - deviceSerialNumber 
 - noLoopbackOta 
+
+#IBMCHAMPION2022
